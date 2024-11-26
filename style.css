@@ -1,0 +1,256 @@
+
+  
+  .hero {
+      background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+      color: white;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .carousel-item {
+      height: 80vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+      border-radius: 5px;
+    }
+    
+  
+    .carousel-item {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .card {
+      flex: 0 0 300px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      padding: 1.5rem;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: sans-serif;
+    }
+  
+    .card h5{
+      font-family: serif;
+      font-weight: bolder;
+     
+    }
+  
+    
+  
+    .card:hover{
+      background-color: rgb(234, 53, 7);
+      
+    }
+    .icon {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto 1rem;
+      background: #007bff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    
+    .icon:hover{
+      background-color: rgb(248, 231, 231);
+      color: rgb(182, 6, 6);
+    }
+    
+  
+    .slider-container {
+      position: relative;
+      background: url('https://angular.envytheme.com/lian/assets/images/study-bg.jpg') no-repeat center center/cover; /* Replace with your image */
+      height: 600px; /* Adjust height as needed */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      overflow: hidden;
+    }
+  
+    /* Blue transparent overlay */
+    .slider-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(63, 63, 106, 0.6); /* Blue color with transparency */
+      z-index: 1;
+    }
+  
+    /* Content on top of overlay */
+    .slider-content {
+      position: relative;
+      z-index: 2; /* Ensure it appears above the overlay */
+      text-align: center;
+    }
+  
+    .slider-content h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  
+    .slider-content p {
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  
+    
+  .eighht{
+    height: 700px;
+    background-image: url('https://angular.envytheme.com/lian/assets/images/campus-experience-bg.jpg'); 
+   
+  }
+    
+  
+    #ourcampus{
+      background-color: rgb(104, 4, 4);
+       color: white;
+    }
+   
+    .date{
+      height: 120px;
+      width: 120px;
+      background-color: rgb(4, 4, 51);
+    }
+  
+    .datess{
+      color: white;
+      justify-content: center;
+      text-align: center;
+      top: 50%;
+      
+    }
+  
+    
+  
+    #time{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(4, 4, 65);
+    color: white;
+    margin: 5px;
+    font-size: small;
+    }
+   
+  
+    .search-section {
+      background-color: #f9f4ee; /* Light cream background */
+      padding: 30px;
+      border-radius: 8px;
+  }
+  
+  
+  
+  .search-section input[type="radio"] {
+      accent-color: #8B0000; /* Matches red color for radio buttons */
+  }
+  
+  .search-section .form-control,
+  .search-section .form-select {
+      background-color: #f9f4ee;
+      border: 1px solid #8B0000;
+      font-size: 14px;
+  }
+  
+  .search-section .btn-search {
+      background-color: #8B0000;
+      color: white;
+      font-size: 16px;
+  }
+  
+  /* Information Cards */
+  .info-card {
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+  }
+  
+  .info-card.red {
+      background-color: #8B0000;
+  }
+  
+  .info-card.blue {
+      background-color: #001f3f;
+  }
+  
+  .info-card .icon {
+      font-size: 40px; /* Icon size */
+      margin-bottom: 10px;
+  }
+  
+  .info-card .number {
+      font-size: 36px; /* Number font size */
+      font-weight: bold;
+  }
+  
+  .info-card .text {
+      font-size: 16px; /* Text size */
+  }
+  
+  .videoicon{
+    color: #8B0000;
+  }
+  
+  
+  
+  
+  .six{
+  
+  background-color: rgb(250, 234, 236);
+  }
+  
+  .six h6{
+    color: brown;
+  }
+  
+  .six p{
+    font-family: calc();
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
